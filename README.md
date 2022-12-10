@@ -12,6 +12,7 @@
 
 > Step 1
 insert ensure ars_billing in your server.cfg
+```ensure ars_billing ```
 > Step 2
 create item in ox inventory
 ox_inventory/data/items.lua
