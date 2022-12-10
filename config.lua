@@ -5,8 +5,8 @@ Config.ItemName = "fatture"         -- Name of the item to give to player
 Config.RemoveItem = false           -- Remove item when bill paid
 Config.MetadataOnItem = true        -- if true it will show details of the bill on item hover
 Config.UseDiscordLogs = true
-Config.CreateBillWebhook = "https://discord.com/api/webhooks/1051117156764504125/w7_3Kq9nIYuujfuXBl6NLYL_1mHh6SYBL9dNTng1omIaJfiCE6bgziQ9jWcRFFnjnjpi"
-Config.PayBillWebhook = "https://discord.com/api/webhooks/1051117156764504125/w7_3Kq9nIYuujfuXBl6NLYL_1mHh6SYBL9dNTng1omIaJfiCE6bgziQ9jWcRFFnjnjpi"
+Config.CreateBillWebhook = "WEBHOOK"
+Config.PayBillWebhook = "WEBHOOK"
 
 Config.Lang = {
 
