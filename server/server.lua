@@ -10,4 +10,4 @@ RegisterNetEvent("ars_billing:payBill", function(method, data)
 end)
 
 
-lib.versionCheck('Arius-Development/ars_disassemble_weapons')
+lib.versionCheck('Arius-Development/ars_billing')
