@@ -1,17 +1,17 @@
 --#--
 --Fx info--
 --#--
-fx_version   "cerulean"
+fx_version "cerulean"
 use_fxv2_oal "yes"
-lua54        "yes"
-game         "gta5"
-version      "1.0.1"
+lua54 "yes"
+game "gta5"
+version "1.0.1"
 
 --#--
 --Resource info--
 --#--
 name "ars_billing"
-author  "Arius Development"
+author "Arius Development"
 repository "https://github.com/Arius-Development/ars_billing"
 description "A simple script for realistic billing"
 
@@ -27,6 +27,6 @@ server_scripts {
 }
 
 shared_scripts {
-    "@ox_lib/init.lua", 
+    "@ox_lib/init.lua",
     "config.lua"
 }

@@ -1,10 +1,10 @@
-ESX = exports["es_extended"]:getSharedObject() 
+ESX = exports["es_extended"]:getSharedObject()
 
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
-	ESX.PlayerData = xPlayer
-	ESX.PlayerLoaded = true
-    
+    ESX.PlayerData = xPlayer
+    ESX.PlayerLoaded = true
+
     if Config.MetadataOnItem then
         displayMetadata()
     end
@@ -22,4 +22,3 @@ end)
 RegisterCommand(Config.CommandName, function()
     createBill()
 end)
-
